@@ -1,3 +1,4 @@
 This is for dev sample
 this is for dev2 line
-
+This is for dev1 sample
+added new line
