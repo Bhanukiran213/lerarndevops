@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: creating the file
+    file:
+      path: "/home/ec2-user/anil1.txt"
+      state: touch
+
