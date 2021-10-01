@@ -1,0 +1,9 @@
+- name: Create a file
+   hosts: nodes
+    tasks:
+
+    - name: Create a file
+      file:
+            path: "/opt/learndevops/demo.txt"
+            state: touch
+
