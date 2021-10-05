@@ -42,5 +42,5 @@
     shell: nohup /opt/tomcat/bin/startup.sh
     become: yes
     tags:
-    - start
+      - start
 
